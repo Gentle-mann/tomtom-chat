@@ -1,0 +1,40 @@
+name: tomtom
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  google_fonts: ^6.1.0
+  provider: ^6.1.1
+  svg_flutter: ^0.0.1
+  web_socket_channel: ^2.3.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Carlos
+      fonts:
+        - asset: assets/fonts/Caros-ExtraLight.otf
+        - asset: assets/fonts/Caros-Bold.otf
+        - asset: assets/fonts/Caros-Black.otf
+        - asset: assets/fonts/Caros-Light.otf
+        - asset: assets/fonts/Caros-Medium.otf
+        - asset: assets/fonts/Caros-Thin.otf
